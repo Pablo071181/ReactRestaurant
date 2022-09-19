@@ -1,0 +1,7 @@
+.body {
+  /* background-image: linear-gradient( to right,  rgba(85,88,218,1), rgba(95,209,249,1)); */
+  background-image:url('http://cdn.cnn.com/cnnnext/dam/assets/151009133238-1-central-lima.jpg');
+  /*color: #000;*/
+  margin: 0;
+  min-height: 100vh;
+}
