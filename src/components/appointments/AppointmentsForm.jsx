@@ -41,7 +41,7 @@ const AppointmentsForm = ({ appointments, setAppointments }) => {
     });
     Toast.fire({
       icon: 'success',
-      title: '¡Haz realizado tu reserva! Nos pondremos en contacto contigo. Haz click en Confirmar si tus datos son correctos o Eliminar si deseas cancelar'
+      title: '¡Haz realizado tu reserva! Nos pondremos en contacto contigo. Haz click en Regresar si tus datos son correctos o Eliminar si deseas cancelar'
     });
   };
 
