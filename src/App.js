@@ -16,13 +16,17 @@ function App() {
 
   return (
     <>
-      <Header company={company} class='fixed-top shadow'/>
-      <main>
-        <section>
+      <Header company={company} class='fixed-top shadow p-3 mb-2 bg-secondary text-white'/>
+      <main class='bg-dark'>
+        <section class='carousel slide'>
+        <div>
       <Carrusel />
+      </div>
       </section>
-      <section>
+      <section class='bg-dark py-5'>
+        <div class='card'>
       <Cards />
+      </div>
       <div class='card'>
         <Reserva />
       </div>
