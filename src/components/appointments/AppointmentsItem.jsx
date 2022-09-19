@@ -57,7 +57,7 @@ const AppointmentsItem = ({ appointment, deleteAppointment }) => {
           <h6 className="m-0"><span className="fw-bold">Email:</span> <span className="fw-normal">{owner}</span></h6>
         </div>
         <div className="d-flex gap-1">
-          <a href='https://proyectorestaurant.netlify.app/'
+          <a href='https://pablo071181.github.io/ReactRestaurant/'
             rel="noopener noreferrer"
             className="btn btn-primary btn-sm"
           >
