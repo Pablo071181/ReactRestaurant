@@ -23,7 +23,7 @@ function App() {
       </section>
       <section>
       <Cards />
-      <div>
+      <div class='card'>
         <Reserva />
       </div>
       </section>
