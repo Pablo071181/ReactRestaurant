@@ -1,5 +1,5 @@
 {
-  "homepage" : "Pablo071181.github.io/ReactRestaurant/",
+  "homepage": "https://Pablo071181.github.io/ReactRestaurant",
   "name": "Proyecto Restaurant",
   "version": "0.0.1",
   "private": true,
@@ -17,11 +17,13 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build -r https://$GH_TOKEN@https://github.com/Pablo071181/ReactRestaurant.git"
+    "eject": "react-scripts eject"
+    
   },
   "eslintConfig": {
     "extends": [
